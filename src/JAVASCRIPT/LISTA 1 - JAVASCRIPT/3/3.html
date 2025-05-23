@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .sucess {
+            color: green;
+        }
+
+        div {
+            background-color: darkgray;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--
+        Crie um campo de texto (input) e um botão "Atualizar". Ao digitar algo no campo e clicar no botão, o conteúdo de um div
+        deve ser atualizado com o texto digitado. Se o campo estiver vazio, mostre uma mensagem de erro dentro do div.
+    -->
+
+    <form id="form">
+        <label for="input">Digite alguma coisa!</label>
+        <input type="text" id="input" name="input" placeholder="Digite aqui">
+        <button id="btn-update">Atualizar</button>
+    </form>
+
+    <div id="div-result">
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
